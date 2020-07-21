@@ -2,6 +2,11 @@ package org.locations;
 
 public class Loc {
 	
+
+	public void location2() {
+		System.out.println("Hyderabad");
+	}
+
 	public void location1() {
 		System.out.println("Chennai");
   }
@@ -10,6 +15,7 @@ public class Loc {
 		
 		Loc l=new Loc();
 		l.location1();
+        l.location2();
 	}
 
 }
